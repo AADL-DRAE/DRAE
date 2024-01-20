@@ -1,0 +1,120 @@
+
+
+.navbar a{
+    
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(18, 1, 1);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 50px;
+    border: 5px solid transparent;
+    transition: 0.6s ease;
+   
+}
+
+.projet-inline {
+    display: inline-block;
+    margin-right: 10px; /* Ajoute une marge entre les projets */
+}
+
+
+.navbar a:hover{
+    background: #a9a9a965;
+    color: #000000;
+}
+
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00000011;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100%;
+    background:transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: -1px 0 10px rgba(0, 0, 0, .2);
+    border-left: 2px solid rgba(255, 255, 255, .1);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    opacity: 0;
+    pointer-events: none;
+ }
+
+.section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.673), rgba(0, 0, 0, 0.6)), url(keyboard-social-business-young-person.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    max-width: 150px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section.projets {
+    float: none; /* ou float: left; */
+    width: 250px;
+    height: 100px;
+    margin-left: -300px;
+}
+
+
+
+ul {
+    list-style:none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #33333374;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Ajoutez ces styles pour ajuster la taille des images */
+ul#listeSites img {
+    max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+    height: auto; /* Pour conserver les proportions originales de l'image */
+    margin-right: 10px; /* Ajoute une marge à droite pour séparer l'image du texte */
+}
+
+
+
